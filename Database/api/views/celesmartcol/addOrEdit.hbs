@@ -1,0 +1,49 @@
+<h3>{{viewTitle}}</h3>
+
+<form action="/OurRicecol" method="POST" autocomplete="off">
+
+    <input type="hidden" name="_id" value="{{OurRicecol._id}}">
+
+    <div class="form-group">
+
+        <label>Name</label>
+
+        <input type="text" class="form-control" name="Name" placeholder="Name" value="{{OurRicecol.Name}}">
+
+    </div>
+
+    <div class="form-group">
+         <label>Kgs</label>
+
+        <input type="text" class="form-control" name="Kgs" placeholder="Kgs" value="{{OurRicecol.Kgs}}">
+
+    </div>
+
+    <div class="form-row">
+
+        <div class="form-group col-md-6">
+
+            <label>Qty</label>
+
+            <input type="text" class="form-control" name="Qty" placeholder="Qty" value="{{OurRicecol.Qty}}">
+
+        </div>
+
+        <div class="form-group col-md-6">
+
+            <label>Price</label>
+            <input type="text" class="form-control" name="Price" placeholder="Price" value="{{OurRicecol.Price}}">
+
+        </div>
+
+    </div>
+
+    <div class="form-group">
+
+        <button type="submit" class="btn btn-info">Submit</button>
+
+        <a class="btn btn-secondary" href="/OurRicecol/list">View All</a>
+
+    </div>
+
+</form>

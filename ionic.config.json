@@ -1,0 +1,8 @@
+{
+  "name": "OurRice",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
